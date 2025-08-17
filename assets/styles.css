@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padre {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar-chats {
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    border-right: 1px solid gray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+
+.username {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.userstatus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.userstatus img {
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.main h1 {
+    padding: 5px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.main p {
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.main img {
+    width: 300px;
+}
+
+.imgtext {
+    display: flex;
+    align-items: center;
+}
+
+.icons i {
+    padding: 5px;
+}
+
+.nuevochat {
+    background-color: #A491D2;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 20px;
+    width: 60%;
+    margin: 40px 40px 40px 40px;
+}
+
+.botonchat {
+    border-bottom: 1px solid gray;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.users img {
+    padding: 10px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.statususers {
+    padding: 5px;
+}
